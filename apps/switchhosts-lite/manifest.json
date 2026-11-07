@@ -1,0 +1,18 @@
+{
+  "id": "switchhosts-lite",
+  "name": "SwitchHosts Lite",
+  "author": "gjfei",
+  "description": "A lightweight native hosts switcher modeled on SwitchHosts. Split hosts rules into local entries, folders and groups, switch them on and off to write the system hosts file, and import SwitchHosts backups. One Rust binary, in English, Simplified and Traditional Chinese.",
+  "category": "dev",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/gjfei/SwitchHostsLite",
+  "publishedAt": "2026-11-07T00:00:00Z",
+  "previews": [
+    "preview0.png"
+  ]
+}
