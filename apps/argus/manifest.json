@@ -1,0 +1,17 @@
+{
+  "id": "argus",
+  "name": "Argus",
+  "author": "Ray-lea",
+  "description": "A native Windows task manager built with Rust and GPUI Kit. Monitor CPU, memory, disks, network and GPU, manage processes and services, inspect file locks, and revisit resource usage history.",
+  "category": "system",
+  "platforms": [
+    "Windows"
+  ],
+  "website": "https://argustask.com/en/",
+  "source": "https://github.com/Ray-lea/Argus",
+  "publishedAt": "2026-11-12T00:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
