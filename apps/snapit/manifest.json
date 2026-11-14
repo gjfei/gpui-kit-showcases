@@ -1,0 +1,20 @@
+{
+  "id": "snapit",
+  "name": "SnapIt",
+  "author": "gjfei",
+  "description": "A native cross-platform screenshot tool with multi-monitor region capture, annotations, on-device text recognition, screen pins, and GIF / MP4 recording, all from the tray.",
+  "category": "system",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "website": null,
+  "source": "https://github.com/gjfei/snapit",
+  "building": true,
+  "publishedAt": "2026-11-14T00:00:00Z",
+  "previews": [
+    "preview0.png",
+    "preview1.png"
+  ]
+}
