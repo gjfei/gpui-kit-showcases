@@ -6,8 +6,7 @@
   "category": "system",
   "platforms": [
     "macOS",
-    "Windows",
-    "Linux"
+    "Windows"
   ],
   "website": null,
   "source": "https://github.com/gjfei/snapit",

@@ -1,6 +1,6 @@
 # SnapIt
 
-SnapIt is a native screenshot tool for macOS, Windows and Linux that lives in the tray. A global shortcut freezes every display and opens an overlay on each monitor, so a region can be captured on any screen without moving windows around first.
+SnapIt is a native screenshot tool for macOS and Windows that lives in the tray. A global shortcut freezes every display and opens an overlay on each monitor, so a region can be captured on any screen without moving windows around first.
 
 ## What it does
 
@@ -8,7 +8,8 @@ SnapIt is a native screenshot tool for macOS, Windows and Linux that lives in th
 - Annotations: rectangle, arrow, pen, mosaic, text and numbered steps, with undo.
 - Copy as PNG, save as PNG or JPEG, or pin a capture above other windows so it stays visible.
 - On-device text recognition through Apple Vision, Windows.Media.Ocr or a bundled pure-Rust engine, which copies the recognized text automatically.
-- Region recording to GIF or MP4, with GIF encoded by gifski and MP4 going through the platform hardware encoder.
+- Region recording to GIF or MP4, with a pure-Rust GIF encoder (a shared palette and change-only frames) and MP4 written through the platform media frameworks.
+- An in-recording control bar to pause, cancel (discard the take) or stop and save.
 - A history panel that keeps recent captures and recordings, with copy, pin, reveal and delete actions.
 - Configurable global shortcuts, light and dark themes, and a Simplified Chinese or English interface.
 
